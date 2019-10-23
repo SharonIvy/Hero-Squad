@@ -22,7 +22,7 @@ test {
     } 
 }
 
-applicationName = "hero-squad": 
+applicationName = "kendi-hero-squad": 
 mainClassName = 'App'
 task stage(dependsOn: ['clean', 'installDist'])
 
