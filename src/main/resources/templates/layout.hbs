@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{#block "title"}}Hero Squad{{/block}}</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='/app.css'>
+</head>
+<body>
+<div class="container-fluid pl-0 pr-0">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark p-5">
+    <a class="navbar-brand" href="/"><h3><strong>HERO SQUAD</strong></h3></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+                <a class="nav-item nav-link" href="/hero-form">New Hero</a>
+            <a class="nav-item nav-link" href="/squad-form">New Squad</a>
+            <a class="nav-item nav-link" href="/hero">Heroes</a>
+            <a class="nav-item nav-link" href="/squad">Squads</a>
+
+        </div>
+    </div>
+</nav>
+</div>
+<div class="container-fluid p-5">
+        {{#block "content"}}
+        {{/block}}
+</div>
+
+
+{{#block "footer"}}
+    <footer  class="page-footer font-small bg-dark">
+        <div class="footer-copyright text-center py-4 text-white">
+            © 2019 Copyright Sharon Ivy
+        </div>
+    </footer>
+<!--    scripts-->
+    <script src="jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="/app.js"></script>
+    </body>
+    </html>
+{{/block}}
+

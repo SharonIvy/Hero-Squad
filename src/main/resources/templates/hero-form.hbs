@@ -1,0 +1,48 @@
+{{#partial "content"}}
+    <div class="container jumbotron pt-5">
+
+        <div class="row">
+            <div class="col-md-4">
+                <img src="/images/green-lantern.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <div class="card">
+                    <form action="/new/hero" class="p-5" method="post">
+                        <h2>Add Hero</h2>
+                        <div class="row pt-3">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name">Hero Name</label>
+                                    <input type="text" placeholder="Name" name="name" required class="form-control">                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="power">Hero Age</label>
+                                    <input type="number" placeholder="Age" name="age" required class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="weakness">Hero Special Powers</label>
+                                    <input type="text" placeholder="Special Powers" name="power" required class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="weakness">Hero Weakness</label>
+                                    <input type="text" placeholder="Weakness" name="weakness" required class="form-control">                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-outline-success float-right" >SUBMIT HERO</button>
+                    </form>
+
+                </div>
+            </div>
+            </div>
+        </div>
+    <div class="container">
+    <h2 class="text-white"><strong>Hero Tip </strong>&#128526;</h2>
+        <h3 class="text-white">After you've successfully created your hero, You are required to add the hero in to a squad</h3>
+    </div>
+{{/partial}}
+{{> layout.hbs}}

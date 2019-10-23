@@ -1,0 +1,30 @@
+
+{{#partial "content"}}
+    <section class="landing-pg center pl-5 pr-5">
+        <h2 class="text-white text-center"> <a class=" btn btn-success btn-lg" href="/hero-form" >Create Your Hero</a> <br><br> CURRENT HEROES</h2>
+        <hr>
+        <div class="text-white">
+            <div class="row">
+            <div class="col-md-6">
+                {{#each hero}}
+                              <div class="row">
+                                  <div class="col-md-2">
+                                      <img src="/images/herrro.png" alt="" height="60px">
+                                  </div>
+                                  <div class="col-md-10">
+                                      <p>Name: {{ name }} </p>
+                                      <p>Age: {{ age }}</p>
+                                      <p>Special power: {{ power }}</p>
+                                      <p>Weakness: {{ weakness }}</p>
+                                      <p>Id: {{ id }}</p>
+                                  </div>
+                                  <a href="/squad" class="btn btn-outline-warning m-2">Add {{ name }} To Squad</a>
+                              </div>
+                       </div>
+                {{/each}}
+                    </div>
+
+            </div>
+    </section>
+{{/partial}}
+{{> layout.hbs}}

@@ -1,0 +1,58 @@
+body {
+    font-family: 'Darker Grotesque', sans-serif;
+    background-color: #303030;
+}
+a{
+font-size: 21px;
+}
+.description{
+padding-left: 20%;
+padding-top: 8%;
+font-weight: 900;
+}
+footer{
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+.footer-copyright{
+font-size: 21px;
+}
+label{
+font-size: 23px;
+font-weight: bold;
+}
+.badge{
+cursor: pointer;
+}
+.modal-backdrop.fade
+{
+  opacity: 0.5;
+}
+.modal-open .modal
+{
+  opacity: 1;
+}
+.hero-charts>div{
+  width: 170px;
+  height: 170px;
+  border: 15px solid rgba(75, 75, 75, 0.5);
+  border-top: 15px solid transparent;
+  display: inline-block;
+  border-radius: 50%;
+  font-size: 1.1em;
+  padding: 20px;
+  padding-top: 10px;
+  margin-top: 10px;
+  max-width: 100%;
+  text-transform: uppercase;
+  transition: all 1s ease;
+}
+.hero-charts span{
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+  font-size: 2.2em;
+}
+.hero-charts span::after{
+  content: "%";

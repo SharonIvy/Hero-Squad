@@ -1,0 +1,44 @@
+{{#partial "content"}}
+    <div class="container jumbotron pt-5">
+
+        <div class="row">
+            <div class="col-md-4">
+                <img src="/images/heroes.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <div class="card">
+                    <form action="/squad/new" class="p-5" method="post">
+                        <h2>Add Squad</h2>
+                        <div class="row pt-3">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="squadname">Squad Name</label>
+                                    <input type="text" placeholder="Enter the squad name" name="squadName" required class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="maxnumber">Squad Max Number</label>
+                                    <input type="number" placeholder="Enter the max size" name="size" required class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="cause">Squad Cause</label>
+                                    <input type="text" placeholder="Enter mission" name="cause" required class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-outline-success float-right" >SUBMIT SQUAD</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="text-white"><strong>Squad Tip </strong>&#128526;</h2>
+        <h3 class="text-white">Every Hero belongs to one Squad at a time</h3>
+    </div>
+{{/partial}}
+{{> layout.hbs}}
