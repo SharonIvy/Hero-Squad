@@ -2,7 +2,7 @@
  #### v1 (as of 11th October, 2019)
  ### By: Sharon Ivy Kendi M.
 
-## DESCRIPTION:
+## Description:
   This is an app that allows you to recruit a well-balanced team of super-heroes
   
 ## Built With:
