@@ -9,7 +9,6 @@
   * [Intellij Idea](https://www.jetbrains.com/idea/)  
 
 
-
 ## Project Pre-requisites:
   You need the following installed on your machine
   - Java
