@@ -1,5 +1,5 @@
 # HERO SQUAD
- #### v1 (as of 11th October, 2019)
+**v1 (as of 11th October, 2019)**
  ### By: Sharon Ivy Kendi M.
 
 ## Description:
