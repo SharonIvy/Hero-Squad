@@ -12,7 +12,7 @@
 
 
 ## Project Pre-requisites
-  You need the following installed on your machine
+  You need the following installed on your machine:
   - Java
   - Java Development Kit(JDK)
   - Maven
