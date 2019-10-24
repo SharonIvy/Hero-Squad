@@ -1,9 +1,9 @@
 # HERO SQUAD
- #### v1, as of, 11th October, 2019
- ### BY: Sharon Ivy Kendi M.
+ #### v1 (as of 11th October, 2019)
+ ### By: Sharon Ivy Kendi M.
 
 ## DESCRIPTION:
-  This is an app that allows you to recruit a well-balanced team of superheroes
+  This is an app that allows you to recruit a well-balanced team of super-heroes
   
 ### Built With:
   * [Java](https://www.java.com/)
@@ -24,20 +24,20 @@
   $ gradle --version
   ```
   
-## Project Setup Requirements
+## Setup Process
+ ### Requirements
   * See pre-requisites
   * Fork this repository
   * Run the command;
   'git clone https://github.com/SharonIvy/Hero-Squad.git' to clone this repository locally
-
-## Set-up Process
+ ### Installation
   * After cloning to your local machine navigate to the folder you cloned into and open it with IntelliJ
   * Navigate into the ``` src/main/java/App.java ``` and click run in IntelliJ
   * On your browser and type ``` localhost:4567 ```
     
 ## Running Tests 
  Create a test class for running tests in the application
- This is a sample test that tests if the getter method works
+ Below is a sample test that tests if the getter method works:
  ```
  @Test
  public void newHero_getName_String(){
