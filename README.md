@@ -6,7 +6,7 @@
   This is an app that allows you to recruit a well-balanced team of super-heroes
   
 ## Built With:
-  * Language used - [Java](https://www.java.com/)
+  * Language - [Java](https://www.java.com/)
   * Intergated Development Environment - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
   * Framework - [Apache Spark](https://spark.apache.org/)
 
