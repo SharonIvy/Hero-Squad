@@ -4,6 +4,7 @@
 
 ## DESCRIPTION:
   This is an app that allows you to recruit a well-balanced team of superheroes.
+  
 ### Built With:
   * [Java](https://www.java.com/)
   * [Intellij Idea](https://www.jetbrains.com/idea/)  
@@ -23,13 +24,13 @@
   $ gradle --version
   ```
   
-## Project setup requirements:
+## Project Setup Requirements:
   * See pre-requisites
   * Fork this repository
   * Run the command;
   'git clone https://github.com/SharonIvy/Hero-Squad.git' to clone this repository locally.
 
-## Set-up process:
+## Set-up Process:
   * After cloning to your local machine navigate to the folder you cloned into and open it with IntelliJ.
   * Navigate into the ``` src/main/java/App.java ``` and click run in IntelliJ.
   * On your browser and type ``` localhost:4567 ```
@@ -54,5 +55,5 @@
     Copyright (c) 2019 **Sharon Ivy Kendi M.**
    See LICENSE file for further information
   
-## Support and contact details:
+## Support and Contact Details:
   e-mail address; kendishivy72@gmail.com
