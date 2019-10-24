@@ -5,9 +5,10 @@
 ## DESCRIPTION:
   This is an app that allows you to recruit a well-balanced team of super-heroes
   
-### Built With:
-  * [Java](https://www.java.com/)
-  * [IntelliJ IDEA](https://www.jetbrains.com/idea/)  
+## Built With:
+  * Language used - [Java](https://www.java.com/)
+  * Intergated Development Environment - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+  * Framework - [Apache Spark](https://spark.apache.org/)
 
 
 ## Project Pre-requisites
@@ -50,7 +51,7 @@
  No bugs detected during the development of this project
  :+1:
   
-## License
+## Licensing
   MIT License
     Copyright (c) 2019 **Sharon Ivy Kendi M.**
    See LICENSE file for further details
