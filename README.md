@@ -48,13 +48,13 @@
  ```
  
 ## Known Bugs
- No bugs detected during the development of this project
+ No bugs were detected during the development of this project
  :+1:
   
 ## License
   MIT License
     Copyright (c) 2019 **Sharon Ivy Kendi M.**
-   See LICENSE file for further details
+   See the LICENSE file for further details
   
 ## Support and Contact Details
-  e-mail address; kendishivy72@gmail.com
+  e-mail address: kendishivy72@gmail.com
