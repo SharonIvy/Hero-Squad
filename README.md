@@ -17,10 +17,14 @@
   You need the following installed on your machine
   - Java
   - Java Development Kit(JDK)
-  To confirm run the following commands on your Linux command line:
+  - Maven
+  - Gradle
+  - An IDE - IntelliJ
+  To confirm, run the following commands on your Linux command line:
   ```
   $ java -version
-  
+  $ mvn --version
+  $ gradle --version
   ```
 
 ## Project Demo:
