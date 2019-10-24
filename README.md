@@ -1,17 +1,14 @@
 # HERO SQUAD
  #### v1, as of, 18th October, 2019
-
  ### BY: Sharon Ivy Kendi M.
 
 ## DESCRIPTION:
   This is an app that allows you to recruit a well-balanced team of superheroes.
-
-# Built With:
+### Built With:
   * [Java](https://www.java.com/)
-  * [Intellij Idea](https://www.jetbrains.com/idea/)
+  * [Intellij Idea](https://www.jetbrains.com/idea/)  
 
-## Specifications:
-  
+
 
 ## Project Pre-requisites:
   You need the following installed on your machine
@@ -59,4 +56,4 @@
    See LICENSE file for further information
   
 ## Support and contact details:
-  e-mail; kendishivy72@gmail.com
+  e-mail address; kendishivy72@gmail.com
