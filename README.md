@@ -17,9 +17,10 @@
   You need the following installed on your machine
   - Java
   - Java Development Kit(JDK)
-  To confirm run the following command on your Linux command line:
+  To confirm run the following commands on your Linux command line:
   ```
   $ java -version
+  
   ```
 
 ## Project Demo:
@@ -29,14 +30,23 @@
   * See pre-requisites
   * Fork this repository
   * Run the command;
-  'git clone https://github.com/SharonIvy/Hero-Squad.git' to clone
+  'git clone https://github.com/SharonIvy/Hero-Squad.git' to clone this repository locally.
 
 ## Set-up process:
-  * Having cloned this repository to your local machine navigate to the folder you cloned into and open the terminal from there.
-  * Run the following commands on your Linux command line:
-    ```
-    $ cd src/main/java
-    $ java App
+  * After cloning to your local machine navigate to the folder you cloned into and open it with IntelliJ.
+  * Navigate into the ``` src/main/java/App.java ``` and click run in IntelliJ.
+  * On your browser and type ``` localhost:4567 ```
+    
+## Running Tests 
+ Create a test class for running tests in the application.
+ This is a sample test that tests if the getter method works
+ ```
+ @Test
+ public void newHero_getName_String(){
+   hero testHero = Hero.setUpNewHero();
+   assertEquals("Audrey", testHero.getName());
+ }
+ ```
  
 ## Known Bugs
  No bugs detected during the development of this project.
@@ -44,7 +54,7 @@
   
 ## License:
   MIT License
-    Copyright (c) 2018 **Sharon Ivy Kendi M.**
+    Copyright (c) 2019 **Sharon Ivy Kendi M.**
    See LICENSE file for further information
   
 ## Support and contact details:
