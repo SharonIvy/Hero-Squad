@@ -26,9 +26,6 @@
   $ mvn --version
   $ gradle --version
   ```
-
-## Project Demo:
-  <img src="./src/main/resources/public/img/screenshot.png" width="600px"/>
   
 ## Project setup requirements:
   * See pre-requisites
